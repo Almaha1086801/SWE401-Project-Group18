@@ -1,2 +1,0 @@
-# SWE401-Project-Group18
-Group18 SWE401 FALL 2026-2027
