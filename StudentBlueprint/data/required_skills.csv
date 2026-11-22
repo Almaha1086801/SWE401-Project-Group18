@@ -1,0 +1,58 @@
+id,career_id,skill_name,required_level,learning_order,skill_type,default_tip
+1,1,Programming,2,1,TECHNICAL,"Pick one language (Java or Python) and solve small exercises every day until loops, methods and arrays feel easy."
+2,1,Object-Oriented Programming,2,2,TECHNICAL,"Build a small app with classes, inheritance and interfaces, for example a library or bank system."
+3,1,Git/GitHub,2,3,TECHNICAL,"Put all your course projects on GitHub and practise branches, commits and pull requests."
+4,1,Data Structures and Algorithms,2,4,TECHNICAL,"Revise lists, stacks, queues, trees and sorting, then solve easy coding problems on a practice website."
+5,1,Databases,2,5,TECHNICAL,"Learn SQL SELECT, JOIN and GROUP BY and design a small database for one of your projects."
+6,1,APIs,1,6,TECHNICAL,Call a free public REST API from code and then build a small API of your own.
+7,1,Software Testing,1,7,TECHNICAL,Write unit tests for one of your projects using JUnit or pytest.
+8,1,Web Development,1,8,TECHNICAL,"Make a simple website with HTML, CSS and JavaScript to understand how the web works."
+9,1,Problem-Solving,2,9,SOFT,"Before coding, write down the steps on paper. Explain your solution to a friend to check it."
+10,1,Communication,2,10,SOFT,Present one of your projects to classmates and write a clear README for it.
+11,2,HTML/CSS,2,1,TECHNICAL,"Rebuild the layout of a website you like using only HTML and CSS, including flexbox and grid."
+12,2,JavaScript,2,2,TECHNICAL,"Learn variables, functions, arrays and the DOM, then add interactive features to your HTML page."
+13,2,Git/GitHub,2,3,TECHNICAL,Host your web projects on GitHub and publish one with GitHub Pages.
+14,2,React,2,4,TECHNICAL,Follow the official React tutorial and then build a small to-do or weather app.
+15,2,APIs,2,5,TECHNICAL,Use fetch to get data from a public API and show it on your page.
+16,2,Databases,1,6,TECHNICAL,Learn basic SQL and connect a simple back end to a database.
+17,2,Responsive Design,2,7,TECHNICAL,"Make your site work on phone, tablet and laptop sizes using media queries."
+18,2,Teamwork,2,8,SOFT,Join a group project or hackathon and practise splitting tasks and reviewing code together.
+19,2,Communication,2,9,SOFT,Explain your design choices to a classmate and ask for honest feedback.
+20,3,Excel,2,1,TECHNICAL,"Practise formulas, pivot tables and charts with a free public dataset."
+21,3,Statistics,2,2,TECHNICAL,"Revise mean, median, standard deviation and correlation using real examples."
+22,3,SQL,2,3,TECHNICAL,"Practise SELECT, JOIN, GROUP BY and subqueries on a sample database."
+23,3,Python,1,4,TECHNICAL,Learn Python basics and then the pandas library for working with tables.
+24,3,Data Cleaning,2,5,TECHNICAL,"Take a messy dataset and fix missing values, duplicates and wrong formats."
+25,3,Data Visualization,2,6,TECHNICAL,Make clear charts and pick the right chart type for each question.
+26,3,Power BI/Tableau,1,7,TECHNICAL,Build one dashboard with the free version of Power BI or Tableau Public.
+27,3,Problem-Solving,2,8,SOFT,Start each analysis by writing the question you want to answer in one sentence.
+28,3,Communication,2,9,SOFT,Write a short summary of your findings for someone who is not technical.
+29,4,Technical Drawing,2,1,TECHNICAL,"Practise plans, sections and elevations by hand and check them against drawing standards."
+30,4,AutoCAD,2,2,TECHNICAL,Redraw one of your studio projects in AutoCAD using layers and proper line weights.
+31,4,Revit (BIM),2,3,TECHNICAL,Model a small house in Revit and produce plans and sections from the model.
+32,4,3D Modeling,2,4,TECHNICAL,Use SketchUp or Rhino to model and render one of your designs.
+33,4,Building Codes and Regulations,1,5,TECHNICAL,"Read the main local building code sections on fire safety, access and space standards."
+34,4,Architectural Design,2,6,TECHNICAL,"Study built projects you admire and analyse their plans, light and circulation."
+35,4,Portfolio Presentation,2,7,SOFT,Pick your best 5 to 8 projects and make a clean portfolio that tells a story.
+36,4,Time Management,2,8,SOFT,Plan studio deadlines backwards from the due date and use breaks for skill practice.
+37,4,Communication,2,9,SOFT,"Practise presenting your design in 3 minutes, like in a real client meeting."
+38,5,Programming,2,1,TECHNICAL,Learn Kotlin (Android) or Swift (iOS) basics with small daily exercises.
+39,5,Object-Oriented Programming,2,2,TECHNICAL,"Build a small app using classes and interfaces, for example a notes app."
+40,5,Git/GitHub,2,3,TECHNICAL,Keep every app project on GitHub and practise branches and pull requests.
+41,5,Android or iOS Development,2,4,TECHNICAL,Follow the official Android or Apple developer tutorials and publish a simple app to your phone.
+42,5,Flutter or React Native,1,5,TECHNICAL,Try a cross-platform framework by rebuilding one of your apps for both Android and iOS.
+43,5,APIs,2,6,TECHNICAL,Make your app load live data from a free public API.
+44,5,Databases,1,7,TECHNICAL,Save app data locally with SQLite or a simple cloud database.
+45,5,App Testing,1,8,TECHNICAL,Write a few unit tests and test your app on different screen sizes.
+46,5,Problem-Solving,2,9,SOFT,Break each app feature into small steps before you start coding.
+47,5,Teamwork,2,10,SOFT,Build an app with a classmate and split the screens between you.
+48,6,Design Principles,2,1,TECHNICAL,"Learn layout, colour, typography and spacing by redesigning an app you use every day."
+49,6,User Research,2,2,TECHNICAL,Interview 3 to 5 people about a problem and write down what they need.
+50,6,Wireframing,2,3,TECHNICAL,Sketch the main screens of an app on paper before using any tool.
+51,6,Figma,2,4,TECHNICAL,"Recreate your wireframes in Figma using frames, components and auto layout."
+52,6,Prototyping,2,5,TECHNICAL,Link your Figma screens into a clickable prototype.
+53,6,Usability Testing,1,6,TECHNICAL,Watch 3 people use your prototype and note where they get stuck.
+54,6,Accessibility,1,7,TECHNICAL,Check colour contrast and text sizes against the WCAG guidelines.
+55,6,HTML/CSS,1,8,TECHNICAL,Learn enough HTML and CSS to understand how developers build your designs.
+56,6,Communication,2,9,SOFT,Present your design and explain your decisions in a short case study.
+57,6,Teamwork,2,10,SOFT,Work with a developer classmate and hand over your design files clearly.

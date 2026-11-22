@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My profile | Student Blueprint</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="topbar">
+    <a class="logo" href="/profile">Student Blueprint</a>
+    <nav>
+        <a href="/profile" class="active">My profile</a>
+        <a href="/plan">My plan</a>
+        <form method="post" action="/logout" class="inline"><button class="link-button">Log out</button></form>
+    </nav>
+</header>
+<!-- profile page (FR-03 to FR-09, FR-24, FR-26, FR-27) -->
+<main>
+    <h1>Hi {{name}}</h1>
+    <p class="small">Fill in your profile, then press <b>See my plan</b> to see your skill gaps and roadmap.</p>
+
+    <section class="card">
+        <h2>1. My studies and career goal</h2>
+        <form method="post" action="/profile/studies">
+            <div class="row">
+                <div class="grow">
+                    <label for="major">My major</label>
+                    <input type="text" id="major" name="major" maxlength="100" value="{{major}}" placeholder="e.g. Software Engineering">
+                </div>
+                <div class="grow">
+                    <label for="careerId">Career I want</label>
+                    <select id="careerId" name="careerId">{{careerOptions}}</select>
+                </div>
+            </div>
+            <button class="button">Save</button>
+        </form>
+        <p class="small">{{careerDescription}}</p>
+    </section>
+
+    <section class="card">
+        <h2>2. My skills</h2>
+        <table>
+            <thead><tr><th>Skill</th><th>My level</th><th></th></tr></thead>
+            <tbody>{{skillRows}}</tbody>
+        </table>
+        <h3>Add or update a skill</h3>
+        <form method="post" action="/profile/skills" class="row">
+            <div class="grow">
+                <input type="text" name="skillName" list="careerSkills" aria-label="Skill name" placeholder="e.g. Git/GitHub or Communication">
+                {{skillError}}
+            </div>
+            <select name="skillLevel" aria-label="Skill level">
+                <option value="1">Beginner</option>
+                <option value="2">Intermediate</option>
+                <option value="3">Advanced</option>
+            </select>
+            <button class="button">Add skill</button>
+        </form>
+        <datalist id="careerSkills">{{suggestions}}</datalist>
+        <p class="small">Tip: pick names from the suggestions so we can match them to your career.</p>
+    </section>
+
+    <section class="card">
+        <h2>3. Courses, projects, certifications and experience</h2>
+        <table>
+            <thead><tr><th>Type</th><th>Title</th><th>Details</th><th></th></tr></thead>
+            <tbody>{{achievementRows}}</tbody>
+        </table>
+        <h3>Add one</h3>
+        <form method="post" action="/profile/achievements" class="row">
+            <select name="type" aria-label="Type">
+                <option value="COURSE">Course</option>
+                <option value="PROJECT">Project</option>
+                <option value="CERTIFICATION">Certification</option>
+                <option value="EXPERIENCE">Experience (internship / job)</option>
+            </select>
+            <div class="grow">
+                <input type="text" name="title" aria-label="Title" placeholder="Title, e.g. SWE401 Software Engineering">
+                {{achievementError}}
+            </div>
+            <div class="grow">
+                <input type="text" name="extra" aria-label="Details" placeholder="Course: grade / Project: skills used / Cert: issuer / Experience: where">
+            </div>
+            <button class="button">Add</button>
+        </form>
+        <p class="small">For projects, list the skills you used with commas (e.g. Java, Git/GitHub). They count as beginner level. Adding the same title again updates it.</p>
+    </section>
+
+    <section class="card">
+        <h2>4. Share with my advisor</h2>
+        {{shareBox}}
+    </section>
+
+    <div class="actions">
+        <a class="button big" href="/plan">See my plan &rarr;</a>
+    </div>
+</main>
+</body>
+</html>

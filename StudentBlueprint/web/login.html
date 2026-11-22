@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Log in | Student Blueprint</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="topbar"><span class="logo">Student Blueprint</span></header>
+<!-- login page (FR-02). the message spot shows errors or "logged out" -->
+<main class="narrow">
+    <div class="card">
+        <h1>Log in</h1>
+        {{message}}
+        <form method="post" action="/login">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required autofocus>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+            <button class="button">Log in</button>
+        </form>
+        <p class="small">No account yet? <a href="/register">Create one</a></p>
+    </div>
+</main>
+</body>
+</html>

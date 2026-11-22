@@ -1,0 +1,39 @@
+id,student_id,step_order,skill_name,target_level,gap_type,tip,done
+1,2,1,Databases,1,MISSING,Learn basic SQL and connect a simple back end to a database.,true
+2,2,2,Responsive Design,2,MISSING,"Make your site work on phone, tablet and laptop sizes using media queries.",true
+3,2,3,Teamwork,2,MISSING,Join a group project or hackathon and practise splitting tasks and reviewing code together.,true
+4,2,4,Communication,2,MISSING,Explain your design choices to a classmate and ask for honest feedback.,true
+5,3,1,SQL,2,MISSING,Complete the Mode Analytics SQL Intermediate Tutorial and build 20 practice queries on LeetCode.,true
+6,3,2,Python,1,MISSING,"Take the Python for Everybody specialization on Coursera to grasp basic loops, functions, and data structures.",true
+7,3,3,Data Cleaning,2,MISSING,Complete the Kaggle Data Cleaning micro-course and apply it to a messy real-world dataset from GitHub.,true
+8,3,4,Data Visualization,2,MISSING,Build interactive charts using Seaborn and Matplotlib based on insights discovered in a public dataset.,true
+9,3,5,Power BI/Tableau,1,MISSING,Watch a guided beginner YouTube project to create your first interactive dashboard using public Superstore data.,true
+10,3,6,Problem-Solving,2,MISSING,Solve daily case study prompts on StrataScratch to practice translating business questions into analytical steps.,true
+11,3,7,Communication,2,MISSING,Write a concise one-page executive summary and record a Loom presentation explaining a data project to a non-technical audience.,true
+12,4,1,APIs,1,MISSING,Call a free public REST API from code and then build a small API of your own.,false
+13,4,2,Software Testing,1,MISSING,Write unit tests for one of your projects using JUnit or pytest.,false
+14,4,3,Web Development,1,MISSING,"Make a simple website with HTML, CSS and JavaScript to understand how the web works.",false
+15,4,4,Problem-Solving,2,MISSING,"Before coding, write down the steps on paper. Explain your solution to a friend to check it.",false
+16,4,5,Communication,2,MISSING,Present one of your projects to classmates and write a clear README for it.,false
+17,5,1,Figma,2,MISSING,"Recreate your wireframes in Figma using frames, components and auto layout.",true
+18,5,2,Usability Testing,1,MISSING,Watch 3 people use your prototype and note where they get stuck.,true
+19,5,3,Accessibility,1,MISSING,Check colour contrast and text sizes against the WCAG guidelines.,true
+20,5,4,Communication,2,MISSING,Present your design and explain your decisions in a short case study.,true
+21,5,5,Teamwork,2,MISSING,Work with a developer classmate and hand over your design files clearly.,true
+22,1,1,APIs,1,MISSING,Build a weather dashboard web app that fetches real time data from a public REST API.,true
+23,6,1,Excel,2,MISSING,"Practise formulas, pivot tables and charts with a free public dataset.",true
+24,6,2,Statistics,2,MISSING,"Revise mean, median, standard deviation and correlation using real examples.",true
+25,6,3,SQL,2,MISSING,"Practise SELECT, JOIN, GROUP BY and subqueries on a sample database.",true
+26,6,4,Python,1,MISSING,Learn Python basics and then the pandas library for working with tables.,true
+27,6,5,Data Cleaning,2,MISSING,"Take a messy dataset and fix missing values, duplicates and wrong formats.",true
+28,6,6,Data Visualization,2,MISSING,Make clear charts and pick the right chart type for each question.,true
+29,6,7,Power BI/Tableau,1,MISSING,Build one dashboard with the free version of Power BI or Tableau Public.,true
+30,7,1,Programming,2,IMPROVE,"Complete the interactive Python or Java track on Exercism to master syntax, control flow, and problem-solving through daily coding exercises.",true
+31,7,2,Object-Oriented Programming,2,MISSING,"Build a command-line inventory management system implementing inheritance, polymorphism, and encapsulation in a language like Java or C++.",true
+32,7,3,Git/GitHub,2,MISSING,"Complete the official GitHub Skills courses on branching, merging, and pull request workflows by contributing to a mock open-source repository.",true
+33,7,4,Data Structures and Algorithms,2,MISSING,"Solve at least 150 curated problems on NeetCode.io covering arrays, strings, trees, and sorting algorithms.",true
+34,7,5,Databases,2,MISSING,Build a normalized PostgreSQL relational database for a campus bookstore project and write complex JOIN queries and transactions.,true
+35,7,6,APIs,1,MISSING,Build a simple weather data retriever in Python using the Requests library to fetch and parse JSON data from a public REST API.,true
+36,7,7,Software Testing,1,MISSING,Write your first unit test suite using JUnit or PyTest for a calculator application to learn assertions and test coverage.,true
+37,7,8,Web Development,1,MISSING,"Create a static personal portfolio website using HTML, CSS, and basic JavaScript deployed via GitHub Pages.",true
+38,7,9,Communication,2,IMPROVE,Join your university software engineering club or lead a group project team meeting to practice explaining technical concepts and writing clear documentation.,true

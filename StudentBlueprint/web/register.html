@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Create account | Student Blueprint</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="topbar"><span class="logo">Student Blueprint</span></header>
+<!-- register page (FR-01). the errors spot shows what was wrong with the input (FR-22) -->
+<main class="narrow">
+    <div class="card">
+        <h1>Create your account</h1>
+        <p class="small">Free for all students. We only ask for what we need.</p>
+        {{errors}}
+        <form method="post" action="/register">
+            <label for="fullName">Full name</label>
+            <input type="text" id="fullName" name="fullName" value="{{fullName}}">
+            <label for="email">University email</label>
+            <input type="email" id="email" name="email" value="{{email}}">
+            <label for="password">Password (at least 12 characters, with a letter, a number and a symbol)</label>
+            <input type="password" id="password" name="password">
+            <label for="confirmPassword">Confirm password</label>
+            <input type="password" id="confirmPassword" name="confirmPassword">
+            <button class="button">Create account</button>
+        </form>
+        <p class="small">Already have an account? <a href="/login">Log in</a></p>
+    </div>
+</main>
+</body>
+</html>

@@ -1,0 +1,8 @@
+id,full_name,email,password_hash,major,career_id,share_token
+1,Red color,user0001@students.adu.ac.ae,dbnzP69Z7I8QA1r2scuNJw==:N/VZLmNmGS9lNT2IQjks37U3/pQ3KdtN+2O2pE+yd6Y=,software engineering,1,
+2,Blue color,user0002@students.adu.ac.ae,L/Hd5UZ8BKrHYD1iZ2tTtQ==:GV/c8eCAw02iFTdD4foifA/46rGxulfuOfoSdBM07fk=,Information Technology,2,
+3,Green color,user0003@students.adu.ac.ae,Ka7L0lFakGmyzSmXoUt6Rg==:KaGzpBlh7scPh1dc78aF9ZUNGJ4WhpdVYJ0wsiOo4Kc=,CyberSecurity,3,
+4,Orange color,user0004@students.adu.ac.ae,G8GdCvAs8oVaVQtuRxsELg==:YeKA12DOPVc8lufPliRDYkfeUKknhMwPb012AvZmsHs=,software engineering,1,LIXlaWnspFt-6SUHayykSRXG
+5,Purple color,user0005@students.adu.ac.ae,hImAMIjnJqGjMsqs7XIeVA==:AM1fG7NAFwLzmhEwcBo5oFh6MFWMkYNfAL5Udx4I9GA=,Information Technology,6,
+6,Yellow color,user0006@students.adu.ac.ae,cVnSxWEqIvMnWSlME2uvog==:T7NkNupNyXPEyNfDfy+AUj2tifaM/ra+FlDK+udYKac=,Information Technology,3,
+7,Brown color,user0007@students.adu.ac.ae,RmLZkpe9FekFflljOm3x/Q==:NwVsdyfNuwUNNVMHABs9tCMqqqUiI54z5CtA8Q+K8kI=,software engineering,1,

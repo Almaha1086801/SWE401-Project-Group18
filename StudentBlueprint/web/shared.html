@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shared profile | Student Blueprint</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="topbar"><span class="logo">Student Blueprint</span></header>
+<!-- read only page for the advisor (FR-24), there are no buttons that change anything -->
+<main>
+    <h1>{{name}} - shared profile</h1>
+    <p class="small">Read-only view shared by the student with their advisor.</p>
+    <section class="card">
+        <h2>Studies and career goal</h2>
+        <p><b>Major:</b> {{major}}</p>
+        <p><b>Career goal:</b> {{career}}</p>
+    </section>
+    <section class="card">
+        <h2>Skills</h2>
+        <table><thead><tr><th>Skill</th><th>Level</th></tr></thead><tbody>{{skillRows}}</tbody></table>
+    </section>
+    <section class="card">
+        <h2>Courses, projects, certifications and experience</h2>
+        <table><thead><tr><th>Type</th><th>Title</th><th>Details</th></tr></thead><tbody>{{achievementRows}}</tbody></table>
+    </section>
+    <section class="card">
+        <h2>Roadmap progress</h2>
+        {{progress}}
+    </section>
+</main>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My plan | Student Blueprint</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="topbar">
+    <a class="logo" href="/profile">Student Blueprint</a>
+    <nav>
+        <a href="/profile">My profile</a>
+        <a href="/plan" class="active">My plan</a>
+        <form method="post" action="/logout" class="inline"><button class="link-button">Log out</button></form>
+    </nav>
+</header>
+
+<!-- my plan page: skill gap on top, roadmap under it (FR-10 to FR-21, FR-25, FR-30) -->
+<main>
+    <h1>My plan</h1>
+    <p class="small">Goal: {{careerName}}</p>
+
+    <!-- part 1: skill gap summary with the counts and the coloured bar -->
+    <section class="card">
+        <h2>My skill gap</h2>
+        <div class="stats">
+            <div class="stat have"><span class="num">{{haveCount}}</span> skills you have</div>
+            <div class="stat improve"><span class="num">{{improveCount}}</span> to improve</div>
+            <div class="stat missing"><span class="num">{{missingCount}}</span> missing</div>
+        </div>
+        <div class="gapbar">
+            <div class="part have" style="width:{{havePercent}}%"></div>
+            <div class="part improve" style="width:{{improvePercent}}%"></div>
+            <div class="part missing" style="width:{{missingPercent}}%"></div>
+        </div>
+        <p class="small">{{readyText}}</p>
+        <h3>What this means</h3>
+        <p>{{explanation}}</p>
+        <p class="small">{{aiNote}}</p>
+    </section>
+
+    <div class="three-cols">
+        <section class="card col-have"><h2>Skills I have</h2><ul>{{haveList}}</ul></section>
+        <section class="card col-improve"><h2>Need improvement</h2><ul>{{improveList}}</ul></section>
+        <section class="card col-missing"><h2>Missing</h2><ul>{{missingList}}</ul></section>
+    </div>
+
+    <!-- part 2: the roadmap with progress and the mark done buttons -->
+    {{roadmap}}
+
+    <!-- part 3: opportunities for this career -->
+    <section class="card">
+        <h2>Opportunities to aim for</h2>
+        <ul class="opps">{{opportunities}}</ul>
+        <p class="small">These are examples to help you plan. Always check real job posts.</p>
+    </section>
+
+    <p class="notice">These results are suggestions to guide you, not guaranteed career advice. Job requirements are
+        different between companies, so also check real job posts and talk to your academic advisor.</p>
+</main>
+</body>
+</html>

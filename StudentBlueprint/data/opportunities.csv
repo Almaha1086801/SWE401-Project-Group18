@@ -1,0 +1,19 @@
+id,career_id,category,title,description
+1,1,INTERNSHIP,Software engineering summer internship,Many tech companies offer summer internships for students with a GitHub portfolio and basic Java or Python.
+2,1,CERTIFICATION,Oracle Java SE certification,A recognised certificate that shows strong Java and OOP knowledge.
+3,1,ENTRY_ROLE,Junior software developer,"Usually asks for programming, Git, databases and teamwork."
+4,2,INTERNSHIP,Front-end developer internship,"Look for internships where you build real web pages with HTML, CSS, JavaScript and React."
+5,2,CERTIFICATION,Meta Front-End Developer certificate,"An online certificate covering HTML, CSS, JavaScript and React."
+6,2,ENTRY_ROLE,Junior web developer,Usually asks for a portfolio website and experience with at least one framework.
+7,3,INTERNSHIP,Data analyst internship,"Common in banks, government entities and consulting firms, usually asks for Excel and SQL."
+8,3,CERTIFICATION,Microsoft Power BI Data Analyst (PL-300),Shows you can build reports and dashboards in Power BI.
+9,3,ENTRY_ROLE,Junior data analyst,"Usually asks for SQL, Excel, a visualisation tool and good communication."
+10,4,INTERNSHIP,Architecture firm internship,Firms look for students with a strong portfolio and AutoCAD or Revit skills.
+11,4,CERTIFICATION,Autodesk Revit Certified Professional,"Shows strong BIM skills, which many firms now expect."
+12,4,ENTRY_ROLE,Junior architect,"Usually 3 to 5 years before licensing, works on drawings, models and client presentations."
+13,5,INTERNSHIP,Mobile app development internship,Companies look for students who have at least one app they can show on their phone.
+14,5,CERTIFICATION,Meta Android or iOS Developer certificate,Online certificates that cover building and publishing mobile apps.
+15,5,ENTRY_ROLE,Junior mobile developer,"Usually asks for Kotlin or Swift, APIs, Git and a portfolio of apps."
+16,6,INTERNSHIP,UX design internship,Look for internships where you take part in user research and design reviews.
+17,6,CERTIFICATION,Google UX Design certificate,An online certificate that takes you through the full design process with portfolio projects.
+18,6,ENTRY_ROLE,Junior UI/UX designer,Usually asks for a portfolio with 3 or more case studies and Figma skills.
